@@ -7,6 +7,9 @@ import CounterSection from './components/CounterSection';
 import ProductSection from './components/ProductSection';
 import NewArticles from './components/NewArticles';
 import Testimonial from './components/Testimonial';
+import FaqSection from './components/FaqSection';
+import CtaSection from './components/CtaSection';
+import NewsletterSection from './components/NewsletterSection';
 
 function App() {
   return (
@@ -17,7 +20,10 @@ function App() {
       <CounterSection />
       <ProductSection />
       <NewArticles />
-      <Testimonial/>
+      <Testimonial />
+      <FaqSection />
+      <CtaSection />
+      <NewsletterSection />
     </>
   );
 }

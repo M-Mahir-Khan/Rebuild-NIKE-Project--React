@@ -766,6 +766,35 @@ p {
 
 }
 
+/* FAQ section styling */
+.faq h4 span {
+  color: #AB2C48;
+  font-size: 1.875rem;
+  margin-right: 0.3125rem;
+}
+
+.faq h2 {
+  color: #43121d;
+}
+
+/* CTA Section styling */
+.book-food {
+  width: 100%;
+  background: url('./Images/bg2.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 71.9125px;
+  padding: 4.375rem 0;
+}
+
+.white-btn {
+  background-color: white;
+  border: none;
+  padding: 10px 25px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
 
 /* Animations */
 .leFlyInTop span { animation-name: leFlyInTop }
