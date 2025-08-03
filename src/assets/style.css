@@ -668,6 +668,16 @@ p {
     padding: 0 1rem;
 }
 
+.footer-social a {
+  margin: 0 10px; /* Icons ke beech horizontal gap */
+  display: inline-block;
+  color: white;
+}
+
+.footer-social a i {
+  font-size: 1.5rem;
+}
+
 /* 
 ==================================
     Abour section

@@ -10,6 +10,9 @@ import Testimonial from './components/Testimonial';
 import FaqSection from './components/FaqSection';
 import CtaSection from './components/CtaSection';
 import NewsletterSection from './components/NewsletterSection';
+import Footer from './components/Footer';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   return (
@@ -24,6 +27,7 @@ function App() {
       <FaqSection />
       <CtaSection />
       <NewsletterSection />
+      <Footer/>
     </>
   );
 }
