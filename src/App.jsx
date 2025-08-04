@@ -1,33 +1,15 @@
-
-import './assets/style.css';
-import Navbar from "./components/Navbar";
-import Hero from './components/Hero';
-import TopShoes from "./components/TopShoes"
-import CounterSection from './components/CounterSection';
-import ProductSection from './components/ProductSection';
-import NewArticles from './components/NewArticles';
-import Testimonial from './components/Testimonial';
-import FaqSection from './components/FaqSection';
-import CtaSection from './components/CtaSection';
-import NewsletterSection from './components/NewsletterSection';
-import Footer from './components/Footer';
+import { Routes, Route } from "react-router-dom";
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import Home from "./pages/home";
+import Cloths from "./pages/cloths";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <TopShoes />
-      <CounterSection />
-      <ProductSection />
-      <NewArticles />
-      <Testimonial />
-      <FaqSection />
-      <CtaSection />
-      <NewsletterSection />
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cloths" element={<Cloths />} />
+      </Routes>
     </>
   );
 }

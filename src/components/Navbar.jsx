@@ -2,8 +2,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/style.css'; // Ensure this is where your main CSS is
 import '../assets/responsive.css'
+import { NavLink } from 'react-router-dom';
 
- function Navbar() {
+function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navigation-wrap">
       <div className="container">
@@ -17,6 +18,7 @@ import '../assets/responsive.css'
           data-bs-target="#navbarText"
           aria-controls="navbarText"
           aria-expanded="false"
+          
           aria-label="Toggle navigation"
         >
           <i className="fas fa-stream navbar-toggler-icon"></i>
@@ -24,19 +26,19 @@ import '../assets/responsive.css'
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
             <li className="nav-item">
-              <a className="nav-link active" href="/">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/cloths">Clothing</a>
+             <NavLink to="/cloths">Clothing</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/about">About Us</a>
+              <NavLink className="nav-link" href="/about">About Us</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#testimonial">Reviews</a>
+              <NavLink className="nav-link" href="/#testimonial">Reviews</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#faq">FAQ</a>
+              <NavLink className="nav-link" href="/#faq">FAQ</NavLink>
             </li>
             <li className="nav-item">
               <button className="main-btn">1200 345 123</button>
