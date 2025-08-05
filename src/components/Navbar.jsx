@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/style.css'; // Ensure this is where your main CSS is
 import '../assets/responsive.css'
 import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+
 
 function Navbar() {
   return (
@@ -26,19 +28,19 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
             <li className="nav-item">
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/" className="nav-link">Home</NavLink>
             </li>
             <li className="nav-item">
-             <NavLink to="/cloths">Clothing</NavLink>
+            <NavLink to="/cloths" className="nav-link">Clothing</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" href="/about">About Us</NavLink>
+             <NavLink to="/about" className="nav-link">About Us</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" href="/#testimonial">Reviews</NavLink>
+           <HashLink smooth to="/#testimonial" className="nav-link">Reviews</HashLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" href="/#faq">FAQ</NavLink>
+              <HashLink smooth to="/#faq" className="nav-link">FAQ</HashLink>
             </li>
             <li className="nav-item">
               <button className="main-btn">1200 345 123</button>
