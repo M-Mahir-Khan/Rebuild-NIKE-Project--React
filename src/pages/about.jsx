@@ -44,7 +44,7 @@ function About() {
       </section>
 
       <section className="sec">
-        <h2>Parallax Scrolling Website</h2>
+        <h2>About NIKE</h2>
         <p className="text-light">
           {/* Add your content here */}
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non vel laudantium aliquid,
