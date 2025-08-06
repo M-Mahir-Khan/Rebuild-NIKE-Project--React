@@ -599,7 +599,7 @@ p {
 
 .book-food{
     width: 100%;
-    background: url("../Images/bg2.jpg") no-repeat center;
+    background: url("https://shoes-store-landing-page.vercel.app/Images/bg2.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     background-position: 0 71.9125px;
